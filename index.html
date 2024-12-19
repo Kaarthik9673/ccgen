@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>⚓ KJWEBOX CC GEN ⚓</title>
+    <meta name="description" content="KJWEBOX">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="./style.css">
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src="https://cdn.sessionstack.com/sessionstack.js"></script>
+    <script async src="./script.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="grey-translucent">
+    <meta name="apple-mobile-web-app-title" content="KJWEBOX CC GEN">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <meta name="application-name" content="KJWEBOX CC GEN">
+    <meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
+    <meta name="google-adsense-platform-domain" content="blogspot.com">
+</head>
+<body>
+    <div id="app">
+        <nav class="navigations">
+            <h1 style="color: white; font-size: 60px; font-family: Fantasy; font-weight: bold;">KJWEBOX CC GEN</h1>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form-generator></form-generator>
+                </div>
+                <div class="col-md-6">
+                    <generated-credit-cards></generated-credit-cards>
+                    <button type="button" class="btn btn-primary btn-block" onclick="copyCards()">COPY CARDS</button>
+                </div>
+            </div>
+            <input type="hidden" name="IL_IN_ARTICLE">
+            <input type="hidden" name="IL_IN_TAG" value="2">
+        </div>
+        <br><br><br>
+        <center>
+            <p>BY - 丂ｱﾑ尺ｲ乇刀 | POWERED BY <a href="https://kjwebox.blogspot.com">KJWEBOX</a></p>
+        </center>
+        <br><br>
+        <center>
+            <script type="text/javascript">
+                var aax_size = '728x90';
+                var aax_pubname = '15450c07-21';
+                var aax_src = '302';
+            </script>
+            <script type="text/javascript" src="//c.amazon-adsystem.com/aax2/assoc.js"></script>
+        </center>
+    </div>
+
+    <script>
+        function copyCards() {
+            const textarea = document.querySelector("textarea");
+            if (textarea) {
+                textarea.select();
+                document.execCommand('copy');
+                alert('Cards copied to clipboard!');
+            } else {
+                alert('No cards to copy.');
+            }
+        }
+    </script>
+    <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+</body>
+</html>
